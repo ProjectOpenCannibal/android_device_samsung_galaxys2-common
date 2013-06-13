@@ -142,7 +142,7 @@ BOARD_UMS_LUNFILE := "/sys/class/android_usb/android0/f_mass_storage/lun0/file"
 BOARD_USES_MMCUTILS := true
 BOARD_HAS_NO_MISC_PARTITION := true
 BOARD_HAS_NO_SELECT_BUTTON := true
-BOARD_SUPPRESS_EMMC_WIPE := false
+BOARD_SUPPRESS_EMMC_WIPE := true
 DEVICE_RESOLUTION := 480x800
 TARGET_SPECIFIC_HEADER_PATH := device/samsung/galaxys2-common/overlay/include
 
