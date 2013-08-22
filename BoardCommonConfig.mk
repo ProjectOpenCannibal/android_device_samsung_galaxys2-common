@@ -74,6 +74,7 @@ BOARD_HARDWARE_CLASS := hardware/samsung/cmhw
 BOARD_EGL_CFG := device/samsung/galaxys2-common/configs/egl.cfg
 USE_OPENGL_RENDERER := true
 BOARD_EGL_NEEDS_LEGACY_FB := true
+DEVICE_RESOLUTION := 480x800
 
 # FIMG Acceleration
 BOARD_USES_FIMGAPI := true
